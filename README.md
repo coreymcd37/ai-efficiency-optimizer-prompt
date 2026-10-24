@@ -133,6 +133,12 @@ Yes. It's MIT licensed. Fork it, trim it, and adapt it.
 
 Have an idea? [Open an issue](https://github.com/coreymcd37/smart-efficiency-optimizer/issues/new/choose) or start a [discussion](https://github.com/coreymcd37/smart-efficiency-optimizer/discussions).
 
+## How this was made
+
+I developed and tested this guide through my own AI-assisted workflow. I wrote the rules, ran them against real tasks in several models, compared the output and cost, and kept only what held up. It's the same approach I use when I build software: I set the direction, review every result and ship what passes.
+
+— [Corey McDaniel](https://coreymcdaniel.com)
+
 ## Contributing
 
 This is meant to grow. If you have a better rung for the ladder, a token-saving trick, a tool-specific setup guide, or a fix, I'd love your help. Open an issue, start a discussion, or send a pull request. Everyone's welcome to build on it, collaborate, and contribute. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started, and look for issues labelled [`good first issue`](https://github.com/coreymcd37/smart-efficiency-optimizer/labels/good%20first%20issue).
