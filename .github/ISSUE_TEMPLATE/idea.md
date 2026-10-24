@@ -2,7 +2,7 @@
 name: Idea
 about: Suggest a new technique, guide, template, or direction
 title: "[Idea] "
-labels: idea
+labels: enhancement
 ---
 
 **The idea**

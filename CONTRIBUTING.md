@@ -20,3 +20,11 @@ Thanks for wanting to help make this better.
 ## Ground rules
 
 Be respectful and constructive. By participating you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Good first contributions
+
+New here? Look for issues labelled [`good first issue`](https://github.com/coreymcd37/smart-efficiency-optimizer/labels/good%20first%20issue) or [`help wanted`](https://github.com/coreymcd37/smart-efficiency-optimizer/labels/help%20wanted). Examples, tool setup guides, and translations are all great places to start.
+
+## Style checks
+
+Markdown is checked with [markdownlint](https://github.com/DavidAnson/markdownlint) using the settings in `.markdownlint.json`. You can run it locally with `npx markdownlint-cli2 "**/*.md"`.

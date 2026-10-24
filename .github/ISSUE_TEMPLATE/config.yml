@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and help
+    url: https://github.com/coreymcd37/smart-efficiency-optimizer/discussions
+    about: Ask how to use the guide or share how it worked for you.
+  - name: Report a security concern
+    url: https://github.com/coreymcd37/smart-efficiency-optimizer/security/advisories/new
+    about: Please report security problems privately.
