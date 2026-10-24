@@ -135,7 +135,7 @@ Have an idea? [Open an issue](https://github.com/coreymcd37/smart-efficiency-opt
 
 ## How this was made
 
-I developed and tested this guide through my own AI-assisted workflow. I wrote the rules, ran them against real tasks in several models, compared the output and cost, and kept only what held up. It's the same approach I use when I build software: I set the direction, review every result and ship what passes.
+I developed and tested this guide through my own AI-assisted workflow. I wrote the rules, tested them on real tasks, and kept only what held up. It's the same approach I use when I build software: I set the direction, review every result and ship what passes.
 
 — [Corey McDaniel](https://coreymcdaniel.com)
 
