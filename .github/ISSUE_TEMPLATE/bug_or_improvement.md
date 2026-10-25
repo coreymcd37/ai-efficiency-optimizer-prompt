@@ -1,15 +1,18 @@
 ---
 name: Bug or improvement
 about: Something is unclear, wrong, outdated, or could work better
-title: "[Improvement] "
+title: "[Problem or Improvement] "
 labels: enhancement
+assignees: coreymcd37
+type: Bug
+
 ---
 
-**What section?**
-(e.g. Step 3: Token and resource efficiency)
+**What Part or Give Example?**
+(Eg. When I ask:  ? )
 
 **What's the problem?**
 
 **Suggested fix or improvement**
 
-**Tool or setup where you saw it (optional)**
+**Tool or AI you used where you saw it (Makes a difference)**
