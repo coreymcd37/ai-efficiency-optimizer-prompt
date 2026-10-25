@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Questions and help
-    url: https://github.com/coreymcd37/ai-efficiency-optimizer/discussions
+    url: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/discussions
     about: Ask how to use the guide or share how it worked for you.
   - name: Report a security concern
-    url: https://github.com/coreymcd37/ai-efficiency-optimizer/security/advisories/new
+    url: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/security/advisories/new
     about: Please report security problems privately.

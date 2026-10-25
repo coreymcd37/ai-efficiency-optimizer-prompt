@@ -1,5 +1,5 @@
 {
-  "skill": "ai-efficiency-optimizer",
+  "skill": "ai-efficiency-optimizer-prompt",
   "should_trigger": [
     "What's the cheapest way to process 5,000 support tickets with AI?",
     "I keep running out of usage credits. How do I plan this project so it costs less?",

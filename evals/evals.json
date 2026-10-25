@@ -1,6 +1,6 @@
 {
-  "skill": "ai-efficiency-optimizer",
-  "version": "1.1.0",
+  "skill": "ai-efficiency-optimizer-prompt",
+  "version": "1.1.1",
   "evals": [
     {
       "id": "quick-mode-rename-files",

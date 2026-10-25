@@ -1,6 +1,6 @@
 # Examples
 
-These are illustrative examples of how a model using the Ai Efficiency Optimizer might respond. They're written by hand to show the shape of the output. They are not real benchmarks, and they deliberately use relative cost ratings instead of prices. Always verify current pricing yourself.
+These are illustrative examples of how a model using the Ai Efficiency Optimizer Prompt might respond. They're written by hand to show the shape of the output. They are not real benchmarks, and they deliberately use relative cost ratings instead of prices. Always verify current pricing yourself.
 
 - [Quick mode: renaming photos](quick-mode-renaming-photos.md)
 - [Full mode: tagging support emails](full-mode-support-emails.md)

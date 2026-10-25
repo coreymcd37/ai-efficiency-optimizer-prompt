@@ -1,4 +1,4 @@
-# Ai Efficiency Optimizer (compact)
+# Ai Efficiency Optimizer Prompt (compact)
 
 A shorter version of the [full guide](../SKILL.md) for tools with a small instructions box. Copy everything below the line.
 

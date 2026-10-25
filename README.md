@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="assets/social-preview.png" alt="Ai Efficiency Optimizer: Save money and usage credit when using AI models" width="640">
+  <img src="assets/social-preview.png" alt="Ai Efficiency Optimizer Prompt: Save money and usage credit when using AI models" width="640">
 </p>
 
-# Ai Efficiency Optimizer
+# Ai Efficiency Optimizer Prompt
 
 **Save money and usage credit when using AI models.**
 
-[![License: MIT](https://img.shields.io/github/license/coreymcd37/ai-efficiency-optimizer)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/coreymcd37/ai-efficiency-optimizer-prompt)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last commit](https://img.shields.io/github/last-commit/coreymcd37/ai-efficiency-optimizer)](https://github.com/coreymcd37/ai-efficiency-optimizer/commits/main)
+[![Last commit](https://img.shields.io/github/last-commit/coreymcd37/ai-efficiency-optimizer-prompt)](https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/commits/main)
 
 ## Contents
 
@@ -28,7 +28,7 @@
 
 ## What it is
 
-I put this together because I kept burning through usage credits and paying for big models on work that didn't need them. The Ai Efficiency Optimizer is a reusable set of instructions you give an AI model so it picks the cheapest, fastest, most reliable way to get a job done, without cutting corners on accuracy, privacy, or safety.
+I put this together because I kept burning through usage credits and paying for big models on work that didn't need them. The Ai Efficiency Optimizer Prompt is a reusable set of instructions you give an AI model so it picks the cheapest, fastest, most reliable way to get a job done, without cutting corners on accuracy, privacy, or safety.
 
 ## Why it saves money and credits
 
@@ -42,7 +42,7 @@ I put this together because I kept burning through usage credits and paying for 
 ## What's in this repo
 
 ```text
-ai-efficiency-optimizer/
+ai-efficiency-optimizer-prompt/
 ├── SKILL.md                  # The skill: frontmatter plus the full guide
 ├── CHANGELOG.md              # Version history
 ├── LICENSE                   # MIT
@@ -64,35 +64,35 @@ ai-efficiency-optimizer/
 │   └── social-preview.png
 ├── examples/                 # Worked Quick and Full mode examples
 ├── prompts/
-│   ├── ai-efficiency-optimizer.txt   # Plain-text copy of the guide for pasting
+│   ├── ai-efficiency-optimizer-prompt.txt   # Plain-text copy of the guide for pasting
 │   └── compact.md            # Short version for small instruction boxes
 └── docs/
     └── docs-check.yml        # Optional CI workflow (see docs/README.md)
 ```
 
-`SKILL.md` is the canonical guide. `prompts/ai-efficiency-optimizer.txt` is the same guide without the frontmatter.
+`SKILL.md` is the canonical guide. `prompts/ai-efficiency-optimizer-prompt.txt` is the same guide without the frontmatter.
 
 ## Install as a skill
 
-The repo folder is the skill. Clone it into your tool's skills directory so the folder name matches the skill name, `ai-efficiency-optimizer`.
+The repo folder is the skill. Clone it into your tool's skills directory so the folder name matches the skill name, `ai-efficiency-optimizer-prompt`.
 
 **Claude Code** (personal skills):
 
 ```bash
-git clone https://github.com/coreymcd37/ai-efficiency-optimizer.git ~/.claude/skills/ai-efficiency-optimizer
+git clone https://github.com/coreymcd37/ai-efficiency-optimizer-prompt.git ~/.claude/skills/ai-efficiency-optimizer-prompt
 ```
 
-For a single project, clone it into `.claude/skills/ai-efficiency-optimizer` inside that project instead.
+For a single project, clone it into `.claude/skills/ai-efficiency-optimizer-prompt` inside that project instead.
 
 **Claude apps:** download the repo as a ZIP and upload it under Settings → Capabilities → Skills.
 
-**Cursor and other tools that read skill folders:** clone it into the tool's skills directory (for a project, typically `.cursor/skills/ai-efficiency-optimizer`). Check your tool's docs for the exact path.
+**Cursor and other tools that read skill folders:** clone it into the tool's skills directory (for a project, typically `.cursor/skills/ai-efficiency-optimizer-prompt`). Check your tool's docs for the exact path.
 
 The tool reads the `description` in the frontmatter to decide when to load the skill, so there's nothing else to configure.
 
 ## Use as a system prompt
 
-1. Open [`prompts/ai-efficiency-optimizer.txt`](prompts/ai-efficiency-optimizer.txt), click **Raw**, and copy everything.
+1. Open [`prompts/ai-efficiency-optimizer-prompt.txt`](prompts/ai-efficiency-optimizer-prompt.txt), click **Raw**, and copy everything.
 2. Paste it into your tool's standing instructions (see below).
 3. Give it a real task, like "Summarize 500 support tickets by category."
 4. Small jobs get Quick mode. Bigger jobs get Full mode: a recommended plan, an options comparison, cost estimates, and a small pilot before scaling.
@@ -116,7 +116,7 @@ Send the guide as the system message, then your task as the user message. Exampl
 from pathlib import Path
 from openai import OpenAI
 
-guide = Path("prompts/ai-efficiency-optimizer.txt").read_text()
+guide = Path("prompts/ai-efficiency-optimizer-prompt.txt").read_text()
 client = OpenAI()  # reads your API key from the OPENAI_API_KEY environment variable
 
 response = client.chat.completions.create(
@@ -196,7 +196,7 @@ Yes. It's MIT licensed. Fork it, trim it, and adapt it.
 - [ ] More worked examples
 - [ ] Translations
 
-Have an idea? [Open an issue](https://github.com/coreymcd37/ai-efficiency-optimizer/issues/new/choose) or start a [discussion](https://github.com/coreymcd37/ai-efficiency-optimizer/discussions).
+Have an idea? [Open an issue](https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/issues/new/choose) or start a [discussion](https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/discussions).
 
 ## How this was made
 
@@ -206,7 +206,7 @@ I developed and tested this guide through my own AI-assisted workflow. I wrote t
 
 ## Contributing
 
-This is meant to grow. If you have a better rung for the ladder, a token-saving trick, a tool-specific setup guide, or a fix, I'd love your help. Open an issue, start a discussion, or send a pull request. Everyone's welcome to build on it, collaborate, and contribute. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started, and look for issues labelled [`good first issue`](https://github.com/coreymcd37/ai-efficiency-optimizer/labels/good%20first%20issue).
+This is meant to grow. If you have a better rung for the ladder, a token-saving trick, a tool-specific setup guide, or a fix, I'd love your help. Open an issue, start a discussion, or send a pull request. Everyone's welcome to build on it, collaborate, and contribute. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started, and look for issues labelled [`good first issue`](https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/labels/good%20first%20issue).
 
 ## License
 

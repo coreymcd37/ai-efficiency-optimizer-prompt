@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented here. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-10-25
+
+### Changed
+
+- Renamed the project to **Ai Efficiency Optimizer Prompt**. The repository is now `coreymcd37/ai-efficiency-optimizer-prompt`; old links redirect automatically.
+- The skill name in `SKILL.md` is now `ai-efficiency-optimizer-prompt`, so install it into a folder with that name.
+- `prompts/ai-efficiency-optimizer.txt` is now `prompts/ai-efficiency-optimizer-prompt.txt`.
+- Updated the title and links across the README, guide, templates, references, and social preview image. The guide's wording is unchanged.
+
 ## [1.1.0] - 2026-10-25
 
 ### Changed
@@ -34,5 +43,6 @@ All notable changes to this project are documented here. The format is based on 
 - Setup instructions for ChatGPT, Claude, Gemini, GitHub Copilot, and APIs.
 - Contributing guide, code of conduct, security policy, support guide, and issue and pull request templates.
 
-[1.1.0]: https://github.com/coreymcd37/ai-efficiency-optimizer/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/coreymcd37/ai-efficiency-optimizer/releases/tag/v1.0.0
+[1.1.1]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/releases/tag/v1.0.0
