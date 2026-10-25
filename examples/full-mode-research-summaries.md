@@ -1,6 +1,6 @@
 # Full mode: summarizing research papers with sensitive notes
 
-> Illustrative example. Not a benchmark. Costs use relative ratings; verify current pricing before relying on any estimate.
+> I have tried several ways to do this but this is a generalized structure; I will add some of my personal examples that have worked and helped soon. Make sure verify current pricing before relying on any estimate.
 
 **Task**
 
@@ -38,7 +38,7 @@ Formula: `papers × tokens per trimmed paper × price per token`, plus one theme
 
 - **Privacy:** notes never leave your computer.
 - **Accuracy:** summaries can miss nuance; flag any that disagree with your notes.
-- **Licenses:** only process papers you have legitimate access to.
+- **Hallucinating:** never lie, make things up, or hallucinate; stay focused accurate and professional.
 
 ## 6. Quick win
 
