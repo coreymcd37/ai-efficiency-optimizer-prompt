@@ -1,0 +1,23 @@
+{
+  "skill": "ai-efficiency-optimizer",
+  "should_trigger": [
+    "What's the cheapest way to process 5,000 support tickets with AI?",
+    "I keep running out of usage credits. How do I plan this project so it costs less?",
+    "Help me design a workflow to summarize hundreds of PDFs every month without blowing my budget.",
+    "Should I use a big model or a small model for classifying these product reviews?",
+    "Plan an automation that tags incoming emails, and estimate the cost.",
+    "I want to build a multi-agent system to research competitors. Is that the right approach?",
+    "How can I cut token usage on my chatbot's API calls?",
+    "Compare doing this data cleanup by hand, with a script, or with an AI model.",
+    "We need to translate our help center into six languages. What's the most cost-effective plan?",
+    "Set up a pipeline for our customer records, but keep the data private and the costs capped."
+  ],
+  "should_not_trigger": [
+    "What's the capital of France?",
+    "Fix the typo in this sentence.",
+    "Write a two-line birthday message for my sister.",
+    "Convert 5 miles to kilometers.",
+    "Tell me a joke about cats.",
+    "What time zone is Phoenix in?"
+  ]
+}

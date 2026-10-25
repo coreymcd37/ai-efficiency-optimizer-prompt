@@ -23,7 +23,7 @@ Be respectful and constructive. By participating you agree to the [Code of Condu
 
 ## Good first contributions
 
-New here? Look for issues labelled [`good first issue`](https://github.com/coreymcd37/smart-efficiency-optimizer/labels/good%20first%20issue) or [`help wanted`](https://github.com/coreymcd37/smart-efficiency-optimizer/labels/help%20wanted). Examples, tool setup guides, and translations are all great places to start.
+New here? Look for issues labelled [`good first issue`](https://github.com/coreymcd37/ai-efficiency-optimizer/labels/good%20first%20issue) or [`help wanted`](https://github.com/coreymcd37/ai-efficiency-optimizer/labels/help%20wanted). Examples, tool setup guides, and translations are all great places to start.
 
 ## Style checks
 

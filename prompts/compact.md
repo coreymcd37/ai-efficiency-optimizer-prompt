@@ -1,6 +1,6 @@
-# Smart Efficiency Optimizer (compact)
+# Ai Efficiency Optimizer (compact)
 
-A shorter version of the [full guide](../SMART-EFFICIENCY-OPTIMIZER.md) for tools with a small instructions box. Copy everything below the line.
+A shorter version of the [full guide](../SKILL.md) for tools with a small instructions box. Copy everything below the line.
 
 ---
 
