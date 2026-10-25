@@ -20,6 +20,7 @@
 - [Using it with an API](#using-it-with-an-api)
 - [Run the evals and scripts](#run-the-evals-and-scripts)
 - [Quick mode vs. Full mode](#quick-mode-vs-full-mode)
+- [Notes from testing](#notes-from-testing)
 - [FAQ](#faq)
 - [Roadmap](#roadmap)
 - [How this was made](#how-this-was-made)
@@ -171,6 +172,10 @@ To test the skill itself, run each prompt in [`evals/evals.json`](evals/evals.js
 > **Model:** **Recommended plan:** tag with a small, fast model and send only low-confidence emails to a stronger model, because that's the cheapest approach that meets your quality bar. Then an options table, a workflow, a low/expected/high cost estimate using `emails × tokens per email × price per token` (verify current pricing), risks, and a pilot on 50 emails before scaling.
 
 See [`examples/`](examples/) for complete worked examples.
+
+## Notes from testing
+
+**Spell out your output format.** When I tested this, the cheapest path the agent picked delivered my file into a connected account I couldn't log in to, so I had to convert it again, which cost more in the end. If the file type, where it goes, or who needs to open it matters, say so up front as a non-negotiable. The prompt now treats those as hard constraints. Full story and a before/after prompt: [examples/lesson-specify-output-format.md](examples/lesson-specify-output-format.md).
 
 ## FAQ
 

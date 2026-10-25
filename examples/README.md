@@ -6,4 +6,8 @@ These are illustrative examples of how a model using the Ai Efficiency Optimizer
 - [Full mode: tagging support emails](full-mode-support-emails.md)
 - [Full mode: summarizing research papers with sensitive notes](full-mode-research-summaries.md)
 
+Lessons from real use:
+
+- [Spell out your output format](lesson-specify-output-format.md)
+
 Have a good example? Send a pull request.

@@ -2,6 +2,34 @@
 
 All notable changes to this project are documented here. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-10-25
+
+### Changed
+
+- `SKILL.md` now holds the second version of the guide. It's tighter and more direct, and several sections are condensed into short rule lists.
+- Core principle 4 now covers model capabilities as well as prices and limits.
+- Core principle 6 now says to state trade-offs only when they affect the decision.
+- Step 3 is condensed into one paragraph and adds "stop as soon as the requested result is complete."
+- Step 5 now includes only the sections the task requires.
+- Step 6 gives a retrospective only when asked, and offers a reusable template only when relevant.
+- The red flags, security checklist, and accuracy controls are condensed. The longer versions are still in `references/`.
+- `prompts/ai-efficiency-optimizer-prompt.txt` is synced with the new guide.
+
+### Added
+
+- **Strict output discipline:** deliver only what was asked for; fuller output only on explicit request.
+- **Truthfulness rules:** no fabricated facts, sources, prices, capabilities, or results; constructed workarounds must be labelled as such.
+- **Workaround protocol:** instead of refusing outright, find the legitimate goal and the closest legal, safe alternative, never by bypassing access controls.
+- **Output rules**, including treating stated output requirements (file type, destination, access) as hard constraints.
+- A red flag for generating unrequested content that consumes credits.
+- `examples/lesson-specify-output-format.md`: a lesson from real testing on spelling out output requirements, with a before/after prompt.
+- A "Notes from testing" section in the README.
+- An eval case for output format as a hard constraint.
+
+### Removed
+
+- The separate "Tone" section; its intent is covered by the new output discipline and output rules.
+
 ## [1.1.1] - 2026-10-25
 
 ### Changed
@@ -43,6 +71,7 @@ All notable changes to this project are documented here. The format is based on 
 - Setup instructions for ChatGPT, Claude, Gemini, GitHub Copilot, and APIs.
 - Contributing guide, code of conduct, security policy, support guide, and issue and pull request templates.
 
+[1.2.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/releases/tag/v1.0.0
