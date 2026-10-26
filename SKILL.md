@@ -1,7 +1,7 @@
 ---
 name: ai-efficiency-optimizer-prompt
 description: Use when planning or carrying out significant, repeating, costly, sensitive, or multi-tool work where cost, tokens, or usage credits matter. Picks the cheapest, fastest, most reliable approach that still meets the quality bar, using a Quick mode for small tasks and a Full mode with options, cost estimates, and a pilot for larger ones. Not needed for trivial one-off questions.
-version: 1.2.0
+version: 1.2.1
 author: Corey McDaniel
 license: MIT
 ---

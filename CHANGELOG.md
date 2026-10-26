@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2026-10-26
+
+### Changed
+
+- Regenerated `prompts/compact.md` from the v1.2.0 guide. It now includes strict output discipline, truthfulness, the workaround protocol, and the output rules, including treating file type, destination, and access as hard constraints.
+
 ## [1.2.0] - 2026-10-25
 
 ### Changed
@@ -71,6 +77,7 @@ All notable changes to this project are documented here. The format is based on 
 - Setup instructions for ChatGPT, Claude, Gemini, GitHub Copilot, and APIs.
 - Contributing guide, code of conduct, security policy, support guide, and issue and pull request templates.
 
+[1.2.1]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/coreymcd37/ai-efficiency-optimizer-prompt/compare/v1.0.0...v1.1.0
