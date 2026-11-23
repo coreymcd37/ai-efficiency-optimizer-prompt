@@ -1,5 +1,5 @@
 ---
-name: Idea
+name: "Idea \U0001F4A1 "
 about: Suggest a new technique, guide, template, or direction
 title: "[Idea] "
 labels: enhancement

@@ -1,5 +1,5 @@
 ---
-name: Bug or improvement
+name: "\U0001F41E Bug or improvement"
 about: Something is unclear, wrong, outdated, or could work better
 title: "[Problem or Improvement] "
 labels: enhancement
